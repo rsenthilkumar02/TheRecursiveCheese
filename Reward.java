@@ -7,6 +7,16 @@ public class Reward {
 	private boolean repeat;
 	
 	/**
+	 * Create a new reward object where the point value is zero, the name and description are both "", and the reward does not repeat
+	 */
+	public Reward(){
+		point = 0;
+		name = "";
+		description="";
+		repeat = false;
+	}
+	
+	/**
 	 * Create a new reward object with the given information
 	 * @param p Points required to purchase the reward
 	 * @param n The name of the reward
