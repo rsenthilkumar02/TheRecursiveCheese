@@ -33,6 +33,12 @@ public class Child {
 		 * chores
 		 */
 	}
+	public Child(){
+		/**
+		 * Creates a child with no parameters
+		 */
+	}
+
 
 	public String getName() {
 		return childName;
