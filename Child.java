@@ -30,12 +30,12 @@ public class Child {
 		reward = Reward;
 		/**
 		 * Creates a child with a name, number of point, and an arraylist of
-		 * chores
+		 * chores and rewards
 		 */
 	}
 	public Child(){
 		/**
-		 * Creates a child with
+		 * Creates a child without a name, number of points, and an arraylist of chores and rewards
 		 */
 	}
 
